@@ -34,6 +34,7 @@ def test_verify_Menu():
     except Exception as e:
         print("there was an exception %s", str(e))
         assert False
+        #Testing
 
 def test_tearDown():
     driver.close()
