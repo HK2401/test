@@ -37,4 +37,4 @@ def test_verify_Menu():
         #Testin
 
 def test_tearDown():
-    driver.close()
+    driver.close() #closes webpage
