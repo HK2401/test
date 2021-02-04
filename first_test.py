@@ -28,5 +28,5 @@ def test_mytest():
         f()
 @allure.severity(allure.severity_level.TRIVIAL)
 def test_tearDown():
-    driver.close()
+    driver.close() #close
     
