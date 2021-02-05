@@ -7,7 +7,7 @@ def test_SetUp():
     global driver
     driver = webdriver.Chrome('C:/Users/Hares/Desktop/Prestashop/Drivers/chromedriver')   
 
-@pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')
+@pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure') #comment1
 def test_verify_logo2():  
     driver.get("http://demo.prestashop.com/#/en/front")
     try:
